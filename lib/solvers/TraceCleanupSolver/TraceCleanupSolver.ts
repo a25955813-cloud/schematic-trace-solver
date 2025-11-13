@@ -1,3 +1,4 @@
+import { mergeTraces } from "./merge-logic";
 import type { InputProblem } from "lib/types/InputProblem"
 import type { GraphicsObject, Line } from "graphics-debug"
 import { minimizeTurnsWithFilteredLabels } from "./minimizeTurnsWithFilteredLabels"
